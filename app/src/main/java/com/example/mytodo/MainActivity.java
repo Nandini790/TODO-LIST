@@ -23,7 +23,6 @@ import java.util.HashSet;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
     public void nextActivity(int pos){
         Intent intent = new Intent(this, NotesActivity.class);
         intent.putExtra("position",pos);
